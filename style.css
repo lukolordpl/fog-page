@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa:wght@400;700&family=Staatliches&family=Ubuntu&display=swap');
+
+body{
+	font-family: 'Comfortaa';
+	margin: 0;
+}
+header{
+	background-image: url(images/header-background.png);
+	background-size: cover;
+}
+nav{
+	background-image: url(images/nav-background.png);
+	padding: 6px 25px 1px 0px;
+	font-weight: 900;
+	font-size: 20px;
+}
+main{
+	text-align: justify;
+}
+footer{
+	background-image: url(images/footer-background.png);
+	background-size: cover;
+	text-align: center;
+	padding: 20px 100px 10px 100px;
+	margin-top: -20px;
+	font-size: 12px;
+	border-top: 4px solid #c11e00;
+	color: white;
+}
+.p-footer{
+	max-width: 300px;
+	margin: 0 auto;
+	display: block;
+	text-align: justify;
+}
+
+
+/* ------------- LINKS ------------- START */
+a:link{
+	color: #c11e00;
+	font-weight: bold;
+}
+a:visited{
+	color: #c11e00;
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+	font-weight: bold;
+}
+a:active{
+	color: grey;
+	font-weight: bold;
+}
+/* ------------- LINKS ------------- END */
+
+
+/* ------------- Vertical Navigation Bar -------- START */
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 20px;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: grey;
+}
+nav a:active{
+	color: black;
+}
+/* ------------- Vertical Navigation Bar -------- END */
+
+
+/* ------------ Layout of Sections ------------ START */
+/* -- General -- START */
+h1{
+	font-family: 'Comfortaa';
+	letter-spacing: 1px;
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+h2{
+	font-family: 'Comfortaa';
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: bold;
+}
+h4{
+	font-family: 'Comfortaa';
+	text-align: center;
+	font-weight: bold;
+}
+.h4-footer{
+	font-family: 'Comfortaa';
+	text-align: center;
+	font-size: 17px;
+	color: red;
+}
+/* -- General -- END */
+
+/* -- Home -- START */
+.p-home-section-2{
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+.p-home-section-3{
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.p-home-section-4{
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: center;
+}
+.home-build-container-fluid-1{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.p-home-section-5{
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.home-tips-and-tricks-container-fluid-1{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.home-tips-and-tricks-container-fluid-2{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.p-home-section-6{
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+/* -- Home -- END */
+
+/* -- Builds -- START */
+.builds-section-1-container-fluid-1{
+	max-width: 900px;
+	margin: 0 auto;
+}
+/* -- Builds -- END */
+/* ------------ Layout of Sections ------------ END */
+
+
+/* ------------- LOGO ------------- START */
+.logo-desktop{
+margin: 0 auto;
+display: block;
+}
+.logo-footer{
+	margin: 0 auto;
+	display: block;
+}
+/* ------------- LOGO ------------- END*/
+
+
+/* ------------- ICONS ------------- START */
+.fa-envelope-o{
+	font-size: 2em;
+}
+.fa-gamepad{
+	font-size: 2em;
+}
+.fa-twitch{
+	font-size: 2em;
+}
+/* ------------- ICONS ------------- END */
+
+
+/* ------------- IMAGES ------------- START */
+.dbd-icon{
+	margin: 0 auto;
+	display: block;
+	max-height: 200px;
+}
+.perk-template-icon{
+	margin: 0 auto;
+	display: block;
+	max-height: 150px;
+}
+.game-hours-icon{
+	margin: 0 auto;
+	display: block;
+	max-height: 150px;
+}
+.rank-survivor-icon{
+	margin: 0 auto;
+	display: block;
+	max-height: 150px;
+}
+.rank-killer-icon{
+	margin: 0 auto;
+	display: block;
+	max-height: 150px;
+}
+.steam-profile-icon{
+	margin: 0 auto;
+	display: block;
+	max-height: 150px;
+}
+.latest-news-1{
+	margin: 0 auto;
+	display: block;
+	max-height: 300px;
+	margin: 5px;
+	border: 2px solid white;
+}
+.latest-news-2{
+	margin: 0 auto;
+	display: block;
+	max-height: 300px;
+	margin: 5px;
+	border: 2px solid white;
+}
+.ideas-image{
+	margin: 0 auto;
+	display: block;
+	max-height: 250px;
+}
+/* ------------- IMAGES ------------- START */
+
+
+/* ------------- Bootstrap Colums ------------- START */
+.col-sm-4{
+	text-align: center;
+}
+.col-sm-6{
+	text-align: center;
+}
+.col-sm-2{
+	text-align: center;
+}
+/* ------------- Bootstrap Colums ------------- END */
+
+
+/* ------------- HOME PAGE ------------- START */
+.home-page-1{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.home-background-1{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.home-page-2{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.home-background-2{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+	color: white;
+}
+.home-page-3{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.home-background-3{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.home-page-4{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.home-background-4{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	color: white;
+	border-bottom: 4px solid #c11e00;
+}
+.home-page-5{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.home-background-5{
+	background-image: url(images/tips-and-tricks-background.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.home-page-6{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.home-background-6{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	color: white;
+}
+/* ------------- HOME PAGE ------------- END */
+
+
+/* ------------- NEWS PAGE ------------- START */
+.news-page-1{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.news-background-1{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.news-page-2{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.news-background-2{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+	color: white;
+}
+.news-page-3{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.news-background-3{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.news-page-4{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.news-background-4{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	color: white;
+	border-bottom: 4px solid #c11e00;
+}
+.news-page-5{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.news-background-5{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+/* ------------- NEWS PAGE ------------- END */
+
+
+/* ------------- IDEAS PAGE ------------- START */
+.ideas-page-1{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.ideas-background-1{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.ideas-page-2{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.ideas-background-2{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+	color: white;
+}
+.ideas-page-3{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.ideas-background-3{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.ideas-page-4{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.ideas-background-4{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	color: white;
+	border-bottom: 4px solid #c11e00;
+}
+.ideas-page-5{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.ideas-background-5{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+/* ------------- IDEAS PAGE ------------- END */
+
+
+/* ------------- BUILDS PAGE ------------- START */
+.builds-page-1{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.builds-background-1{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.builds-page-2{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.builds-background-2{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+	color: white;
+}
+.builds-page-3{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.builds-background-3{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.builds-page-4{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.builds-background-4{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	color: white;
+	border-bottom: 4px solid #c11e00;
+}
+.builds-page-5{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.builds-background-5{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+/* ------------- BUILDS PAGE ------------- END */
+
+
+/* ------------- TIPS & TRICKS PAGE ------------- START */
+.tips-and-tricks-page-1{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.tips-and-tricks-background-1{
+	background-image: url(images/tips-and-tricks-page-background.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.tips-and-tricks-page-2{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.tips-and-tricks-background-2{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+	color: white;
+}
+.tips-and-tricks-page-3{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.tips-and-tricks-background-3{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+.tips-and-tricks-page-4{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.tips-and-tricks-background-4{
+	background-image: url(images/home-background-2.png);
+	background-size: cover;
+	margin-top: -20px;
+	color: white;
+	border-bottom: 4px solid #c11e00;
+}
+.tips-and-tricks-page-5{
+	max-width: 1100px;
+	margin: 20px auto;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.tips-and-tricks-background-5{
+	background-image: url(images/home-background-1.png);
+	background-size: cover;
+	margin-top: -20px;
+	border-bottom: 4px solid #c11e00;
+}
+/* ------------- TIPS & TRICKS PAGE ------------- END */
+
+
+/* ------------- CSS for Tablets ------------- START */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+/* ------------- CSS for Tablets ------------- END */
+
+
+/* ------------- CSS for Smartphones ------------- START */
+@media only screen and (max-width: 600px){
+	h1{
+		font-size: 1.5em;
+	}
+	.logo-desktop{
+		max-width: 350px;
+		max-height: 133px;
+	}
+	nav{
+		font-size: 15px;
+	}
+	.home-background-5{
+	background-image: url(images/tips-and-tricks-background-mobile.png);
+}
+/* ------------- CSS for Smartphones ------------- END */
